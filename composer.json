@@ -1,0 +1,23 @@
+{
+    "name": "weijianghu/phone",
+    "description": "this is a phone api provider",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jianghu",
+            "email": "76112703@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Phone\\Iphone\\":"src/Phone/Iphone",
+			"Phone\\Huawei\\":"src/Phone/Huawei",
+			"Phone\\Xiaomi\\":"src/Phone/Xiaomi"
+		}
+	}
+}
